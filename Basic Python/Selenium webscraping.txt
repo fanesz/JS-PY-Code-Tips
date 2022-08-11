@@ -1,0 +1,19 @@
+https://youtu.be/PXMJ6FS7llk?t=4944
+
+https://scrapinghub.github.io/xpath-playground/
+//div[@class="classname"]/text()
+
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+website = "link"
+path = "lokasi file chromedrive"
+service = Service(executable_path=path)
+driver = webdrive.Chrome(service=service)
+driver.get(website)
+
+containers = driver.find_elements(by="xpath", value='//div[@class....dst')
+
+for container in containers :
+    title = container.find......dst
+    //trus di append
