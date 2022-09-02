@@ -1,0 +1,30 @@
+<!-- untuk mengubah warna/background/sesuatu saat mouse mengarah ke suatu div/element -->
+<html>
+
+<head> </head>
+
+<body>
+
+    <div id="myDiv">Hello world</div>
+
+
+    <script>
+        myDiv.onmouseover = activeStyle1;
+        myDiv.onmouseout = activeStyle2;
+
+        function activeStyle1() {
+            document.body.style.background = 'red';
+            document.body.style.color = 'white';
+            console.log('Style 1 actived');
+        }
+
+        function activeStyle2() {
+            document.body.style.background = 'orange';
+            document.body.style.color = 'black';
+            console.log('Style 2 actived');
+        }
+    </script>
+
+</body>
+
+</html>
