@@ -1,0 +1,5 @@
+const re = /[a-z]+\d/g
+
+//g  == base untuk cek seluruh string
+/[a-z]/g == cek apakah kalimat mengandung huruf a-z
+/[a-z]+\d/g == apakah diikuti oleh digit(\d)
