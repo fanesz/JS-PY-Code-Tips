@@ -16,4 +16,12 @@ function getDate(){
     return datetime
 }
 
-getDate()
+function getDateSimple(){
+  const currentdate = new Date();
+  const hour = currentdate.getHours().toString().padStart(2, '0');
+  const minute = currentdate.getMinutes().toString().padStart(2, '0');
+  const second = currentdate.getSeconds().toString().padStart(2, '0');
+  return `${hour}:${minute}:${second}`;
+}
+
+
